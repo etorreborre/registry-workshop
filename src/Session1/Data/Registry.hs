@@ -1,11 +1,11 @@
-module Data.Registry1 where
+module Session1.Data.Registry where
 
 import Protolude
 
-import Data.Function
+import Session1.Data.Function
 
 -- | A Registry is just a list of dynamic functions
-data Registry =
+newtype Registry =
   Registry [Function]
 
 infixr 5 +:

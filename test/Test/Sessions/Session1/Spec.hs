@@ -1,11 +1,11 @@
-module Test.Workshop.Workshop1 where
+module Test.Sessions.Session1.Spec where
 
--- import Data.Registry1
 
 import Data.Dynamic
 import Protolude
 import Test.Tasty.Extensions
-import Test.Workshop.Solution1
+-- import Session1.Data.Registry
+import Test.Sessions.Session1.Solution
 
 test_function_type = test "we can get the type of a function" $ do
   let Function _ ft = createFunction (\(n :: Int) (d :: Double) -> show n <> "_" <> show d :: Text)

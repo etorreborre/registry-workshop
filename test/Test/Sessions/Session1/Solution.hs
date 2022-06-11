@@ -1,13 +1,13 @@
 {-# LANGUAGE PolyKinds #-}
 
-module Test.Workshop.Solution1 where
+module Test.Sessions.Session1.Solution where
 
 import Data.Dynamic
 import GHC.Exts
 import Protolude hiding (TypeRep, typeOf, typeRep)
 import Type.Reflection
 
-data Registry
+newtype Registry
   = Registry [Function]
 
 data Function

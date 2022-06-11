@@ -22,8 +22,10 @@ source-repository head
 
 library
   exposed-modules:
-      Data.Function
-      Data.Registry1
+      Session1.Data.Function
+      Session1.Data.Registry
+      Session2.Data.Function
+      Session2.Data.Registry
   other-modules:
       Paths_registry_workshop
   hs-source-dirs:
@@ -79,9 +81,11 @@ test-suite spec
   main-is: test.hs
   other-modules:
       AutoDiscoveredSpecs
+      Test.Sessions.Session1.Solution
+      Test.Sessions.Session1.Spec
+      Test.Sessions.Session2.Solution
+      Test.Sessions.Session2.Spec
       Test.Tasty.Extensions
-      Test.Workshop.Solution1
-      Test.Workshop.Workshop1
       Paths_registry_workshop
   hs-source-dirs:
       test

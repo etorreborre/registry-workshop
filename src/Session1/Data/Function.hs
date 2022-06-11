@@ -1,6 +1,6 @@
 {-# LANGUAGE PolyKinds #-}
 
-module Data.Function where
+module Session1.Data.Function where
 
 import Data.Dynamic
 import GHC.Exts
