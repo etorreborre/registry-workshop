@@ -81,10 +81,14 @@ test-suite spec
   main-is: test.hs
   other-modules:
       AutoDiscoveredSpecs
-      Test.Sessions.Session1.Solution
-      Test.Sessions.Session1.Spec
-      Test.Sessions.Session2.Solution
-      Test.Sessions.Session2.Spec
+      Test.Sessions.Add.Solution
+      Test.Sessions.Add.Spec
+      Test.Sessions.Check.Solution
+      Test.Sessions.Check.Spec
+      Test.Sessions.Create.Solution
+      Test.Sessions.Create.Spec
+      Test.Sessions.Show.Solution
+      Test.Sessions.Show.Spec
       Test.Tasty.Extensions
       Paths_registry_workshop
   hs-source-dirs:

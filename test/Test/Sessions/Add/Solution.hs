@@ -1,6 +1,6 @@
 {-# LANGUAGE PolyKinds #-}
 
-module Test.Sessions.Session2.Solution where
+module Test.Sessions.Add.Solution where
 
 import Data.Dynamic
 import GHC.Exts
